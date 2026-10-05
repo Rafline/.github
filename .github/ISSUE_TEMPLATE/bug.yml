@@ -1,0 +1,52 @@
+name: Bug
+description: Something that does not work as it should.
+title: "fix: "
+labels: ["type: bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Security problems do not go here. Follow SECURITY.md instead.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should have happened
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: Environment, version, browser or device.
+      placeholder: e.g. staging, Chrome 130
+    validations:
+      required: false
+  - type: input
+    id: notion-epic
+    attributes:
+      label: Notion epic ID
+      placeholder: e.g. EPIC-12, or "none"
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Remove any tokens, passwords or personal data first.
+      render: text
+    validations:
+      required: false
