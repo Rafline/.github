@@ -14,7 +14,7 @@
 
 ## Notion epic ID
 
-<!-- e.g. EPIC-12, or "none" -->
+<!-- e.g. EP-12, or "none" -->
 
 ## Database checklist
 
