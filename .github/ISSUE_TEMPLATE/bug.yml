@@ -39,7 +39,7 @@ body:
     id: notion-epic
     attributes:
       label: Notion epic ID
-      placeholder: e.g. EPIC-12, or "none"
+      placeholder: e.g. EP-12, or "none"
     validations:
       required: false
   - type: textarea
