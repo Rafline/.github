@@ -27,6 +27,8 @@
 
 ## Before requesting review
 
+- [ ] Branch was created from `main`
+- [ ] Branch was merged into `test` (code repos only)
 - [ ] No secrets, tokens or `.env` files are in this change
 - [ ] Shared code changes are additive
 - [ ] CI passes
