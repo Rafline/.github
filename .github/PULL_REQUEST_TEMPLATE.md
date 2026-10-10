@@ -12,7 +12,7 @@
 
 <!-- Commands you ran, tests you added, and what you checked by hand. -->
 
-## Notion epic ID
+## Notion Roadmap ID
 
 <!-- e.g. EP-12, or "none" -->
 

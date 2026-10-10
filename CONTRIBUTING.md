@@ -52,7 +52,8 @@ Run `scripts/install-hooks.sh` once after cloning, where a repository has one. I
   - `feat: add a health check endpoint`
   - `fix(api): return 404 for a missing record`
   - `chore: bump typescript to 5.6`
-- Fill in the pull request template, including the Notion epic ID when there is one.
+- Fill in the pull request template, including the Notion Roadmap ID (EP-…) when there is one.
+- Label names match the Notion Roadmap fields: `version` → Stage, `priority` → Priority, `area` → Repo, `blocked` → Status Blocked.
 - Keep pull requests small enough to review in one sitting.
 
 ## Code written with an AI agent

@@ -18,7 +18,7 @@ body:
   - type: input
     id: notion-epic
     attributes:
-      label: Notion epic ID
+      label: Notion Roadmap ID
       placeholder: e.g. EP-12, or "none"
     validations:
       required: false
